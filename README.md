@@ -176,3 +176,58 @@ Lead 4 → Sales Rep B
 ```bash
 sf apex run test -n LeadScoringHandlerTest -r human --synchronous
 sf apex run test -n RoundRobinAssignmentTest -r human --synchronous
+
+---
+
+---
+
+## 🎓 Day 5: Qualification → Opportunity Automation ✅
+
+**Duration:** February 28, 2026  
+**Status:** Completed  
+
+### What I Built:
+
+- ✅ Record-triggered Flow for Lead Qualification
+- ✅ Duplicate-safe Opportunity creation logic
+- ✅ Conditional Get Records + Decision pattern
+- ✅ Automated pipeline initialization (Stage, Amount, Close Date)
+- ✅ Lead ↔ Opportunity relationship mapping
+
+---
+
+### Business Impact:
+
+When a Lead becomes Qualified:
+
+- System verifies if pipeline record already exists
+- Creates Opportunity only once
+- Prevents duplicate records
+- Ensures clean revenue forecasting data
+
+This reflects real-world Sales Cloud best practices where pipeline integrity is critical.
+
+---
+
+### Technical Skills Demonstrated:
+
+- Salesforce Flow (Record-Triggered)
+- Conditional automation
+- Data integrity enforcement
+- CRM lifecycle modeling
+- Enterprise duplicate prevention pattern
+
+---
+
+### Resulting CRM Flow:
+
+Lead → Scoring → MQL → Round Robin Assignment → Qualified → Opportunity Created (Once)
+
+---
+
+📸 Screenshots available in:
+```
+ScreenShots/Day-05/
+```
+
+---
