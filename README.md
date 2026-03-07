@@ -231,3 +231,61 @@ ScreenShots/Day-05/
 ```
 
 ---
+
+## 🎓 Day 6: Revenue Tracking Automation ✅
+
+**Duration:** March 6, 2026  
+**Status:** Completed  
+
+### What I Built
+
+Implemented revenue lifecycle automation that creates a **Revenue Tracking record** whenever an Opportunity Pipeline record is marked **Closed Won**.
+
+### Features
+
+- Record-Triggered Flow on Opportunity Pipeline
+- Automatic Revenue Tracking record creation
+- Recurring revenue calculations (MRR & ARR)
+- Opportunity ↔ Revenue relationship mapping
+- Revenue lifecycle modeling
+
+---
+
+### Business Impact
+
+This automation connects **sales pipeline data to financial reporting** by ensuring revenue records are created immediately after a deal is won.
+
+Benefits include:
+
+- Improved revenue visibility
+- Automated financial tracking
+- Accurate pipeline-to-revenue transition
+- Scalable CRM automation architecture
+
+---
+
+### Technologies Used
+
+- Salesforce Sales Cloud
+- Record-Triggered Flows
+- Custom Objects
+- CRM Revenue Modeling
+- Data Relationships
+
+---
+
+### Resulting CRM Lifecycle
+
+```
+Lead → MQL → Assigned → Qualified → Opportunity → Closed Won → Revenue Tracking
+```
+
+---
+
+📸 Screenshots available in:
+
+```
+ScreenShots/Day-06/
+```
+
+---
