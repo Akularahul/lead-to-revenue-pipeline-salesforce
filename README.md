@@ -287,5 +287,90 @@ Lead → MQL → Assigned → Qualified → Opportunity → Closed Won → Reven
 ```
 ScreenShots/Day-06/
 ```
+```
+🎓 Day 7: Opportunity Activity Logging Automation ✅
 
----
+Duration: March 7, 2026
+Status: Completed
+
+What I Built
+
+Implemented an automated Opportunity Activity Logging system that creates an Activity Log record whenever an Opportunity Pipeline stage changes.
+
+Features
+Record-Triggered Flow on Opportunity Pipeline
+Automatic Activity Log creation
+Opportunity stage movement tracking
+Activity history automation
+Assigned Rep and Stage tracking
+CRM audit visibility
+Business Impact
+
+This automation improves pipeline transparency and sales tracking by automatically recording every important opportunity stage transition.
+
+Benefits include:
+
+Improved sales activity visibility
+Automated pipeline audit history
+Better CRM tracking accuracy
+Enhanced forecasting transparency
+Reduced manual data entry
+Technologies Used
+Salesforce Sales Cloud
+Record-Triggered Flows
+Custom Objects
+CRM Activity Tracking
+Opportunity Stage Automation
+Resulting CRM Lifecycle
+Lead → MQL → Assigned → Qualified → Opportunity → Stage Progression → Activity Logging
+
+📸 Screenshots available in:
+
+ScreenShots/Day-07/
+
+```
+
+```
+🎓 Day 8: Salesforce REST API Integration ✅
+
+Duration: March 8, 2026
+Status: Completed
+
+What I Built
+
+Implemented a custom Salesforce Apex REST API that allows external systems to create Lead Master records automatically using JSON requests.
+
+Features
+Custom Apex REST API endpoint
+JSON request processing
+Automatic Lead Master creation
+OAuth 2.0 authentication
+Postman API integration testing
+External system simulation
+Lead scoring automation trigger
+Business Impact
+
+This integration enables Salesforce to receive leads from external applications, websites, and third-party systems in real time.
+
+Benefits include:
+
+Automated lead ingestion
+Faster CRM data processing
+Real-world API integration capability
+Scalable external system connectivity
+Enterprise CRM automation architecture
+Technologies Used
+Salesforce Apex
+REST APIs
+OAuth 2.0
+Postman
+JSON Processing
+Salesforce Flows
+Resulting CRM Lifecycle
+External System → REST API → Lead Creation → Lead Scoring → Qualification → Opportunity Pipeline
+
+📸 Screenshots available in:
+
+ScreenShots/Day-08/
+
+```
